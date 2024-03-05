@@ -1,0 +1,311 @@
+#------Versions------#
+[versions]
+
+agp = "8.2.2"
+kotlin = "1.9.20"
+core-ktx = "1.12.0"
+kotlinxCoroutinesTest = "1.7.3"
+lifecycle-runtime-ktx = "2.7.0"
+viewmodel-ktx-ver = "2.7.0"
+accompanist-ver = "0.32.0"
+accompanist-swiperefresh-ver = "0.32.0"
+accompanist-permissions-ver = "0.32.0"
+securityCrypto = "1.0.0"
+biometric = "1.1.0"
+
+#Arrow
+arrow-ver = "1.2.1"
+
+#Compose
+compose-constraint-layout = "1.0.1"
+compose-ver = "1.6.1"
+activity-compose-ver = "1.8.2"
+compose-bom = "2024.02.00"
+nav_version = "2.7.7"
+material2-ver = "1.6.1"
+material3-ver = "1.2.0"
+compose_foundation_ver = "1.6.1"
+compose-viewmodel-ver = "2.7.0"
+
+#Coroutines
+coroutines-ver = "1.7.3"
+
+#Coil
+coil-ver = "2.5.0"
+
+#Dagger
+dagger-hilt-ver = "2.50"
+hilt-navigation = "1.1.0"
+dagger-ver = "2.50"
+
+#Document file
+document-file-ver = "1.0.1"
+
+#Desugar
+desugar-ver = "2.0.4"
+
+#Datastore
+datastore-ver = "1.0.0"
+datastore-preferences-ver = "1.0.0"
+kotlinx-collections-immutable-ver = "0.3.7"
+kotlinx-serialization-ver = "1.6.2"
+
+#Room
+room_version = "2.5.2"
+
+#Input Masks
+decoro-ver = "1.5.2"
+redmadrobot-ver = "6.0.0"
+
+#Firebase Services
+firebase-bom-ver = "32.7.1"
+firebase-analytics-ver = "21.5.0"
+firebase-crashlytics-ver = "18.6.1"
+firebase-messaging-ver = "23.4.0"
+firebase-crashlytics-plugin-ver = "2.9.9"
+gms-google-services-version = "4.3.15"
+firebase-core-ver = "21.1.1"
+firebase-iid-ver = "21.1.0"
+
+#Gradle cache fix
+gradle-android-cache-fix-ver = "3.0"
+
+#Gson
+gson-ver = "2.10.1"
+
+#======GMS======#
+analytics-events-gms-ver = "6.9"
+play-core-ver = "1.10.3"
+installreferrer-ver = "2.2"
+play-services-analytics-ver = "18.0.4"
+services-maps-ver = "18.2.0"
+services-gcm-ver = "17.0.0"
+
+#======HMS======#
+analytics-events-hms-ver = "6.9"
+agconnect-core-ver = "1.9.1.301"
+ads-identifier-ver = "3.4.62.300"
+agconnect-crash-ver = "1.9.1.301"
+agconnect-apms-ver = "1.6.2.300"
+hianalytics-ver = "6.12.0.300"
+hms-push-ver = "6.12.0.300"
+hms-location-ver = "6.12.0.300"
+
+#Ktor
+ktor-ver = "2.3.7"
+
+#KSP
+ksp = "1.9.20-1.0.14"
+
+#PDF viewer
+android-pdf-viewer-ver = "3.2.0-beta.1"
+
+#Retrofit
+retrofit-ver = "2.9.0"
+
+#Shimmer
+shimmer-ver = "0.5.0"
+
+#Test
+junit-ver = "4.13.2"
+androidx-test-ext-junit-ver = "1.1.5"
+espresso-core-ver = "3.5.1"
+mockk-ver = "1.13.9"
+kotest-ver = "5.7.2"
+kotest-assertions-arrow-ver = "1.4.0"
+junit-ext-ver = "1.1.3"
+
+#Tooling preview
+tooling_preview-ver = "1.6.1"
+
+#UI
+appcompat-ver = "1.6.1"
+splash-screen-ver = "1.0.1"
+core = "1.41.0"
+material = "1.11.0"
+
+vk = "4.1.0"
+
+#===============LIBRARIES===============#
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+tools-build-gradle-classpath = { module = "com.android.tools.build:gradle", version.ref = "agp" }
+huawei-agconnect-agcp-classpath = { module = "com.huawei.agconnect:agcp", version.ref = "agconnect-core-ver" }
+
+# Accompanist
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist-ver" }
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist-ver" }
+accompanist-pager-indicator = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist-ver" }
+accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist-swiperefresh-ver" }
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist-permissions-ver" }
+
+#Arrow
+arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow-ver" }
+arrow-fx-coroutines = { module = "io.arrow-kt:arrow-fx-coroutines", version.ref = "arrow-ver" }
+arrow-stack = { module = "io.arrow-kt:arrow-stack", version.ref = "arrow-ver" }
+
+#MockK
+mockk = { module = "io.mockk:mockk", version.ref = "mockk-ver" }
+mockk-agent = { module = "io.mockk:mockk-agent", version.ref = "mockk-ver" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk-ver" }
+
+#Kotest
+kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest-ver" }
+kotest-assertions-arrow = { module = "io.kotest.extensions:kotest-assertions-arrow", version.ref = "kotest-assertions-arrow-ver" }
+
+#Compose
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose-ver" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "tooling_preview-ver" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "tooling_preview-ver" }
+compose-material2 = { module = "androidx.compose.material:material", version.ref = "material2-ver" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "material3-ver" }
+compose-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "compose-constraint-layout" }
+compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose-ver" }
+compose-navigation = { module = "androidx.navigation:navigation-compose", version.ref = "nav_version" }
+compose-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "compose-viewmodel-ver" }
+compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose_foundation_ver" }
+compose-animation = { module = "androidx.compose.animation:animation", version.ref = "compose-ver" }
+
+#Ktor client
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor-ver" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor-ver" }
+ktor-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor-ver" }
+ktor-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor-ver" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor-ver" }
+ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor-ver" }
+ktor-client-resources = { module = "io.ktor:ktor-client-resources", version.ref = "ktor-ver" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor-ver" }
+ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktor-ver" }
+ktor-client-auth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor-ver" }
+
+#Coroutines
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines-ver" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines-ver" }
+
+#Coil
+coil = { module = "io.coil-kt:coil", version.ref = "coil-ver" }
+coil-svg = { module = "io.coil-kt:coil-svg", version.ref = "coil-ver" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-ver" }
+
+#Dagger Hilt
+dagger-hilt = { module = "com.google.dagger:hilt-android", version.ref = "dagger-hilt-ver" }
+dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "dagger-hilt-ver" }
+dagger-hilt-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "dagger-hilt-ver" }
+dagger-hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "dagger-hilt-ver" }
+hilt-navigation = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-navigation" }
+
+#Dagger
+dagger = { module = "com.google.dagger:dagger", version.ref = "dagger-ver" }
+dagger-android = { module = "com.google.dagger:dagger-android", version.ref = "dagger-ver" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger-ver" }
+
+#Desugar
+desugar = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar-ver" }
+
+#Datastore
+data-store = { module = "androidx.datastore:datastore", version.ref = "datastore-ver" }
+data-store-prefs = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore-preferences-ver" }
+data-store-collect = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinx-collections-immutable-ver" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-ver" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
+
+#Room
+room = { module = "androidx.room:room-runtime", version.ref = "room_version" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room_version" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room_version" }
+
+#Document file
+document-file = { module = "androidx.documentfile:documentfile", version.ref = "document-file-ver" }
+
+#Input Masks
+decoro = { module = "ru.tinkoff.decoro:decoro", version.ref = "decoro-ver" }
+input-mask-android = { module = "com.redmadrobot:input-mask-android", version.ref = "redmadrobot-ver" }
+
+#Gson
+gson = { module = "com.google.code.gson:gson", version.ref = "gson-ver" }
+
+#PDF viewer
+android-pdf-viewer = { module = "com.github.barteksc:android-pdf-viewer", version.ref = "android-pdf-viewer-ver" }
+
+#Shimmer
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer-ver" }
+
+#Biometric
+androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+
+#Test
+test-core = { module = "androidx.test:core-ktx", version = "1.5.0" }
+test-junit = { group = "junit", name = "junit", version.ref = "junit-ver" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit-ver" }
+test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core-ver" }
+test-robo = { module = "org.robolectric:robolectric", version = "4.9.2" }
+
+#Test Compose Junit4
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test = { group = "androidx.compose.ui", name = "ui-test" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "compose-ver" }
+
+#Viewmodel Ktx
+viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "viewmodel-ktx-ver" }
+
+#UI
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat-ver" }
+splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "splash-screen-ver" }
+appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "appcompat-ver" }
+
+#VK
+vk-core = { module = "com.vk:android-sdk-core", version.ref = "vk" }
+vk-api = { module = "com.vk:android-sdk-api", version.ref = "vk" }
+
+#============GMS============#
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom-ver" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx", version.ref = "firebase-analytics-ver" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx", version.ref = "firebase-crashlytics-ver" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging-ktx", version.ref = "firebase-messaging-ver" }
+gms-firebase-iid = { module = "com.google.firebase:firebase-iid", version.ref = "firebase-iid-ver" }
+gms-firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebase-core-ver" }
+gms-googleServices = { module = "com.google.gms:google-services", version.ref = "gms-google-services-version" }
+gms-installreferrer = { module = "com.android.installreferrer:installreferrer", version.ref = "installreferrer-ver" }
+gms-play-services = { module = "com.google.android.gms:play-services-gcm", version.ref = "services-gcm-ver" }
+gms-play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "services-maps-ver" }
+gms-play-services-analytics = { module = "com.google.android.gms:play-services-analytics", version.ref = "play-services-analytics-ver" }
+
+#Analytics
+gms-play-core = { module = "com.google.android.play:core", version.ref = "play-core-ver" }
+gms-analytics-events = { module = "ds.libs:analytics-events-gms-release", version.ref = "analytics-events-gms-ver" }
+gms-play-services-location = { group = "com.google.android.gms", name = "play-services-location", version = "21.0.1" }
+
+#============HMS============#
+hms-analytics-events = { module = "ds.libs:analytics-events-hms-release", version.ref = "analytics-events-hms-ver" }
+hms-agconnect-core = { module = "com.huawei.agconnect:agconnect-core", version.ref = "agconnect-core-ver" }
+hms-ads-identifier = { module = "com.huawei.hms:ads-identifier", version.ref = "ads-identifier-ver" }
+hms-agconnect-crash = { module = "com.huawei.agconnect:agconnect-crash", version.ref = "agconnect-crash-ver" }
+hms-agconnect-apms = { module = "com.huawei.agconnect:agconnect-apms", version.ref = "agconnect-apms-ver" }
+hms-hianalytics = { module = "com.huawei.hms:hianalytics", version.ref = "hianalytics-ver" }
+hms-push = { module = "com.huawei.hms:push", version.ref = "hms-push-ver" }
+hms-location = { module = "com.huawei.hms:location", version.ref = "hms-location-ver" }
+core = { group = "com.google.ar", name = "core", version.ref = "core" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+#===============PLUGINS===============#
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+com-android-library = { id = "com.android.library", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+gradle-android-cacheFix = { id = "org.gradle.android.cache-fix", version.ref = "gradle-android-cache-fix-ver" }
+dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "dagger-hilt-ver" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics-plugin-ver" }
+gms-google-services = { id = "com.google.gms.google-services", version.ref = "gms-google-services-version" }
+tools-build-gradle = { id = "com.android.tools.build.gradle", version.ref = "agp" }
+huawei-agconnect-agcp = { id = "com.huawei.agconnect.agcp", version.ref = "agconnect-core-ver" }
+
+#===============BUNDLES===============#
+[bundles]
